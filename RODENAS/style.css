@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Dark gray */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add styles for form elements */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px; 
+    border: 1px solid #ddd; 
+}
